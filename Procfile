@@ -1,1 +1,1 @@
-worker : python werd.py
+worker : python Werd.py
