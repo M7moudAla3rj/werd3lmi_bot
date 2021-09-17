@@ -32,7 +32,7 @@ schedule.every().day.at("04:38:00").do(imeges)
 
 schedule.every().day.at("17:30:01").do(i)
 
-while True:
+#while True:
 
-  schedule.run_pending()
-  bot.polling()
+  #schedule.run_pending()
+bot.polling()
