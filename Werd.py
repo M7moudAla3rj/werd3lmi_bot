@@ -12,7 +12,9 @@ imege="imeges/"+str(i)+".jpg"
 
 chat_id="1202602736"
 
-
+@bot.message_handler(commands=['start'])
+def start (message):
+  bot.reply_to(message , "welcomr")
 
 def imeges ():
 
