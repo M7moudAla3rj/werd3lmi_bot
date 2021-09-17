@@ -12,6 +12,8 @@ imege="imeges/"+str(i)+".jpg"
 
 chat_id="1202602736"
 
+
+
 def imeges ():
 
   bot.send_message(chat_id , "ورد اليوم من الدراسة")
@@ -24,7 +26,7 @@ def i ():
 
   i = i + 1
 
-schedule.every().day.at("07:20:00").do(imeges)
+schedule.every().day.at("04:38:00").do(imeges)
 
 schedule.every().day.at("17:30:01").do(i)
 
